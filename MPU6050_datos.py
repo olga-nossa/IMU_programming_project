@@ -28,7 +28,7 @@ def update(frame):
     data["gy"].append(gy)
     data["gz"].append(gz)
     
-    # Mantén solo los últimos 100 datos para un gráfico en tiempo real
+    # Mantén solo los últimos 100 datos para un gráfico en tiempoo real
     if len(data["ax"]) > 100:
         for key in data:
             data[key].pop(0)
